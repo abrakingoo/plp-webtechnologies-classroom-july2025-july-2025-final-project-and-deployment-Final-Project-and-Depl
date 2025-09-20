@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact Us — HandyHome Solutions</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">HandyHome Solutions</a>
+      <button id="nav-toggle" aria-controls="primary-nav" aria-expanded="false">☰</button>
+      <nav id="primary-nav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Fill out the form below or reach us directly.</p>
+
+    <form id="contact-form" novalidate>
+      <label for="name">Name</label>
+      <input id="name" name="name" required minlength="2">
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required minlength="10"></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+      <div id="form-status" aria-live="polite"></div>
+    </form>
+
+    <section class="business-info">
+      <h2>Our Info</h2>
+      <p><strong>Address:</strong> 45 Riverside Drive, Westlands, Nairobi, Kenya</p>
+      <p><strong>Phone:</strong> <a href="tel:+123456789">+254 756 789 760</a></p>
+      <p><strong>Email:</strong> <a href="mailto:hello@HandyHome Solutions.com">hello@HandyHomeSolutions.com</a></p>
+      <p><strong>Hours:</strong> Mon–Fri 9am – 6pm</p>
+    </section>
+  </main>
+
+    <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span>HandyHome Solutions— Serving our community with pride.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
